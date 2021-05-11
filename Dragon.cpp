@@ -9,7 +9,7 @@ const std::string& Dragon::getName() {
 
 std::string Dragon::getStats() 
 {
-    return Character::getStats();;
+    //return Character::getStats();;
 }
 
 void Dragon::attack(Character &other)

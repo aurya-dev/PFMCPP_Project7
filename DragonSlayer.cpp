@@ -12,7 +12,7 @@ const std::string& DragonSlayer::getName() {
 
 std::string DragonSlayer::getStats() 
 {
-    return Character::getStats();;
+    //return Character::getStats();
 }
 
 

@@ -12,7 +12,7 @@ const std::string& Paladin::getName() {
 
 std::string Paladin::getStats() 
 {
-    return Character::getStats();
+    //return Character::getStats();
 }
 
 

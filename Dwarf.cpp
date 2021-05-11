@@ -6,13 +6,14 @@
 
 //Dwarf::getStats
 
-const std::string& Dwarf::getName() {
+const std::string& Dwarf::getName() 
+{
     return name;
 }
 
 std::string Dwarf::getStats() 
 {
-    return Character::getStats();;
+    //return Character::getStats();
 }
 
 
