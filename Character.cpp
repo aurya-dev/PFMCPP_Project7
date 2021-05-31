@@ -5,8 +5,8 @@
 #include "DefensiveItem.h"
 #include "HelpfulItem.h"
 
-Character::Character(int hp, int armor_, int attackDamage_ ) :
-    hitPoints(hp),
+Character::Character(int hp_, int armor_, int attackDamage_ ) :
+    hitPoints(hp_),
     armor(armor_),
     attackDamage(attackDamage_)
 {
@@ -87,7 +87,7 @@ int Character::takeDamage(int damage)
 }
 
 
-#include <assert>
+#include <assert.h>
 void Character::attackInternal(Character& other)
 {
     if( other.hitPoints <= 0 )
@@ -103,15 +103,4 @@ void Character::attackInternal(Character& other)
     }
 }
 
-void Character::printStats()
-{
-    std::cout << getName() << "'s stats: " << std::endl;
-    assert(false);
-    /*
-    make your getStats() use a function from the Utility.h
-    */
-    std::cout << getStats(); 
-    
-    std::cout << std::endl;
-    std::cout << std::endl;
-}
+

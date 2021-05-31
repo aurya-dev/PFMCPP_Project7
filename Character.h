@@ -23,7 +23,7 @@ struct Character
     virtual void attack( Character& other );
     void defend();
     
-    void help( Character& other );
+    void help(Character& other);
     
     int takeDamage(int damage);
     
